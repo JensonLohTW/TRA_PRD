@@ -1,0 +1,9 @@
+-- ============================================================================
+-- 台鐵職工福利平台 — PostgreSQL 資料庫環境初始化
+-- 模組：00_database.sql
+-- ============================================================================
+-- 手動執行：createdb -E UTF8 -T template0 tra_welfare_test
+-- psql 指令：CREATE DATABASE tra_welfare_test ENCODING 'UTF8'
+--   LC_COLLATE 'en_US.UTF-8' LC_CTYPE 'en_US.UTF-8';
+-- 時區：ALTER DATABASE tra_welfare_test SET timezone TO 'UTC';
+-- PostgreSQL 無 SQL_MODE / FOREIGN_KEY_CHECKS 概念
